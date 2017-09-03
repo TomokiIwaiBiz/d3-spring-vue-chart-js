@@ -1,0 +1,31 @@
+{
+  "name": "d3",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "node task/build-watch.js",
+    "build-release": "node task/build.js"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "chart.js": "^2.6.0",
+    "css-loader": "^0.28.7",
+    "lodash": "^4.17.4",
+    "vue": "^2.4.2",
+    "vue-class-component": "^5.0.2",
+    "vue-loader": "^13.0.4",
+    "vue-template-compiler": "^2.4.2",
+    "webpack": "^3.5.5"
+  },
+  "engines": {
+    "node": ">= 6.9.5",
+    "npm": ">= 3.10.10"
+  }
+}
